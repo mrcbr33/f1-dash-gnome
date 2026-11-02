@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.f1dash"
+          path="/org/gnome/shell/extensions/f1dash/">
+
+    <key name="refresh-interval" type="i">
+      <default>1800</default>
+      <summary>Refresh interval in seconds</summary>
+      <description>How often to fetch new data from the Jolpica F1 API</description>
+    </key>
+
+    <key name="show-constructors" type="b">
+      <default>true</default>
+      <summary>Show constructor standings</summary>
+    </key>
+
+    <key name="driver-count" type="i">
+      <default>10</default>
+      <summary>Number of drivers to show</summary>
+    </key>
+
+    <key name="cached-drivers" type="s">
+      <default>''</default>
+      <summary>Cached driver standings JSON</summary>
+    </key>
+
+    <key name="cached-constructors" type="s">
+      <default>''</default>
+      <summary>Cached constructor standings JSON</summary>
+    </key>
+
+    <key name="cached-race" type="s">
+      <default>''</default>
+      <summary>Cached next race JSON</summary>
+    </key>
+
+    <key name="cache-timestamp" type="i">
+      <default>0</default>
+      <summary>Unix timestamp of last successful fetch</summary>
+    </key>
+
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>Panel position: left, center, right</summary>
+    </key>
+
+  </schema>
+</schemalist>

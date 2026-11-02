@@ -1,0 +1,10 @@
+{
+  "uuid": "f1dash@extension.local",
+  "name": "F1 Dash",
+  "description": "Formula 1 standings, next race schedule and session times — right in your GNOME top bar.",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48", "49", "50", "51"],
+  "url": "https://github.com/mrcbr33/f1-dash-gnome",
+  "settings-schema": "org.gnome.shell.extensions.f1dash",
+  "gettext-domain": "f1dash@extension.local"
+}
