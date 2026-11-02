@@ -19,7 +19,7 @@ A minimal Formula 1 panel extension for GNOME Shell. Shows the next race schedul
 ## Installation
 
 ```bash
-git clone https://github.com/YOURUSERNAME/f1-dash-gnome
+git clone https://github.com/mrcbr33/f1-dash-gnome
 cd f1-dash-gnome
 glib-compile-schemas schemas/
 cp -r . ~/.local/share/gnome-shell/extensions/f1dash@extension.local/
